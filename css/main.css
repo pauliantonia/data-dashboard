@@ -1,3 +1,39 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    border: 1px solid black;
+    width: 100%;
+}
+
+#tituloNav {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#divListaNav,
+#listaNav,
+#lista {
+    display: inline-block;
+    list-style: none;
+}
+
+#divListaNav {
+    margin-left: 65%;
+}
+
+#inicio {
+    border: 1px solid red;
+    padding: 15% 0% 15% 0%;
+}
+
+#tituloInicio,
+#parrafoInicio {
+    text-align: center;
+}
+
+#laboratoriaLogo {
+    margin-left: 25%;
+}
