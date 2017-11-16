@@ -60,9 +60,30 @@ nav {
 #profesores{
     width: 30%;
     padding-left: 10%;
-    
-          
+
+
 }
 #sedechile{
   padding-top: 20%;
+}
+
+#studentsStgo {
+    border: 1px solid blue;
+}
+
+#generacion,
+#iconoDown,
+#listaPerfilAlumnas,
+#iconoFemale2,
+#listaNumeroAlumnas,
+#numeroEstudiantes,
+#perfilEstudiantes,
+#listaAlumnasDesertadas,
+#numeroDesertadas,
+#listaTurn,
+#turnOption,
+#optionAm,
+#optionPm {
+    display: inline-block;
+    list-style: none;
 }
