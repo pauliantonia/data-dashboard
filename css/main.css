@@ -1,42 +1,54 @@
 body {
     margin: 0 auto;
+    font-family: 'Asap', sans-serif;
+}
+
+header {
+    background-color: #2b778e; /*#018390;*/
 }
 
 nav {
     position: fixed;
-    border: 1px solid black;
     width: 100%;
+    background-color: #183e4b;
+    color: #e6e7e9;
 }
 
-#tituloNav {
+#titleNav {
     display: inline-block;
     margin-left: 5%;
 }
 
-#divListaNav,
-#listaNav,
-#lista {
+#divListNav,
+#listNav,
+#list {
     display: inline-block;
     list-style: none;
+    color: #e6e7e9;
+}
+.logIn {
+    margin-left: 40px;
 }
 
-#divListaNav {
+#divListNav {
     margin-left: 65%;
 }
 
-#inicio {
-    border: 1px solid red;
+#start {
     padding: 15% 0% 15% 0%;
 }
 
-#tituloInicio,
-#parrafoInicio {
+#titleStart,
+#paragraphStart {
     text-align: center;
+    color: #e6e7e9;
+    font-size: 150%;
 }
 
 #laboratoriaLogo {
-    margin-left: 25%;
+    margin-left: 23.5%;
 }
+
 #imgchile{
     width: 29%;
     /* height: 30%; */
@@ -73,17 +85,48 @@ nav {
 
 #generacion,
 #iconoDown,
-#listaPerfilAlumnas,
 #iconoFemale2,
 #listaNumeroAlumnas,
 #numeroEstudiantes,
-#perfilEstudiantes,
 #listaAlumnasDesertadas,
 #numeroDesertadas,
-#listaTurn,
+#listTurn,
 #turnOption,
 #optionAm,
 #optionPm {
     display: inline-block;
     list-style: none;
+}
+
+#titleStudents {
+    text-align: center;
+    font-size: 200%;
+}
+
+#generacion {
+    font-size: 200%;
+    margin-left: 5%;
+}
+
+#optionTurn {
+    background-color: #f3c92a;
+    width: 30%;
+}
+
+#turnOption {
+    font-size: 180%;
+    margin: 0% 0% 0% 5%;
+}
+
+#listTurn {
+    font-size: 175%;
+    margin: 0% 0% 0% 0.5%;
+}
+
+#optionPM {
+    background-color: #212121;
+}
+
+#iconoDown {
+    margin-left: 1%;
 }
