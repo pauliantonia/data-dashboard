@@ -14,8 +14,8 @@
         </div>
         <div id="divListNav">
           <ul id="listNav">
-             <li id="listCities">Cities</li>
-             <li id="listLogIn">Log In</li>
+             <a href="#cities"><li id="listCities">Cities</li></a>
+             <a href="#"><li id="listLogIn">Log In</li></a>
           </ul>
         </div>
       </nav>
@@ -27,7 +27,7 @@
     </header>
     <section id="cities">
       <h2 id="titleCities">Cities</h2>
-      <a href="#sedechile"><img id="imgchile" src="assets/images/chile.jpg" alt=""></a>
+      <a href="#chile"><img id="imgchile" src="assets/images/chile.jpg" alt=""></a>
       <a href=""><img id="imgperu" src="assets/images/peru.jpg" alt=""></a>
       <a href=""><img id="imgmexico" src="assets/images/mexico.jpg" alt=""></a>
    </section>
@@ -42,31 +42,27 @@
           <p id="generacion">Generación 2017 II</p>
           <i class="fa fa-chevron-circle-down fa-2x" id="iconoDown" aria-hidden="true"></i>
           <br>
-          <div id="optionTurn">
-              <p id="turnOption">Turn</p>
-              <ul id="listTurn">
-              <li id="optionAm">AM</li>
-              <li id="optionPm">PM</li>
-              </ul>
-          </div>
-
-          <br>
-          <div id="estudentsNumbers">
-            <i class="fa fa-female fa-3x" id="femaleIcon2" aria-hidden="true"></i>
-            <ul id="listStudentsNumbers">
-              <li id="numero">145</li>
-              <li id="students2">ALUMNAS</li>
-            </ul>
-          </div>
-          <div id="dropoutNumber">
-            <i class="fa fa-female fa-3x" id="iconoFemale2" aria-hidden="true"></i>
-            <ul id="listDropoutStudents">
-              <li id="numeroDesertadas">25</li>
-              <li id="alumnas3">ALUMNAS DESERTARON</li>
+          <div id="divNumbersStudents">
+            <img id="graphicStudent" src="assets/images/graphicStudents.jpg" alt="imagen">
+            <div id="divTotalDropout">
+              <div id="estudentsNumbers">
+                <i class="fa fa-user" id="femaleIcon2" aria-hidden="true"></i>
+                <ul id="listStudentsNumbers">
+                  <li id="numero">145</li>
+                  <li id="students2">ALUMNAS</li>
+                </ul>
+              </div>
+              <div id="dropoutNumber">
+                <i class="fa fa-user" id="iconoFemale2" aria-hidden="true"></i>
+                <ul id="listDropoutStudents">
+                  <li id="numeroDesertadas">25</li>
+                  <li id="alumnas3">ALUMNAS DESERTARON</li>
+              </div>
+            </div>
           </div>
       </div>
       <div id="graphics">
-        <img src="assets/images/graphicStudents.jpg" alt="imagen">
+
         <img src="assets/images/ACHIEVEMENT.png" alt="imagen">
 
       </div>

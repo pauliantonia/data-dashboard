@@ -3,6 +3,7 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
+/*INICIO Y BARRA DE NAVEGACIÓN*/
 header {
     background-color: #2b778e; /*#018390;*/
 }
@@ -51,6 +52,7 @@ nav {
     margin-left: 23.5%;
 }
 
+/*SECTION CITIES*/
 #titleCities {
   text-align: center;
   padding: 2%;
@@ -98,13 +100,13 @@ nav {
 }
 
 #chile{
-  border: 1px solid red;
   padding: 5% 0% 7% 0%;
 }
 
-/*SECCIÓN ESTUDIANTES*/
+/*SECCIÓN STUDENTSSTGO*/
+
+/*seccion*/
 #studentsStgo {
-    border: 1px solid blue;
 }
 
 #generacion,
@@ -113,11 +115,7 @@ nav {
 #listStudentsNumbers,
 #studentsNumbers,
 #listDropoutStudents,
-#dropoutNumber,
-#listTurn,
-#turnOption,
-#optionAm,
-#optionPm {
+#dropoutNumber {
     display: inline-block;
     list-style: none;
 }
@@ -132,25 +130,42 @@ nav {
     margin-left: 5%;
 }
 
-#optionTurn {
-    background-color: #f3c92a;
-    width: 30%;
-}
-
-#turnOption {
-    font-size: 180%;
-    margin: 0% 0% 0% 5%;
-}
-
-#listTurn {
-    font-size: 175%;
-    margin: 0% 0% 0% 0.5%;
-}
-
-#optionPM {
-    background-color: #212121;
-}
-
 #iconoDown {
     margin-left: 1%;
+}
+
+/*sección studentsNumbers*/
+#numberStudentsTotal{
+  width: 100%;
+}
+
+#divNumbersStudents{
+  border: 1px solid red;
+  width: 100%;
+}
+
+#graphicStudent {
+  width: 30%;
+  padding: 4.5% 0% 4.5% 11%;
+  border: 1px solid purple;
+}
+
+#divTotalDropout {
+  float: right;
+  width: 50%;
+  border: 1px solid blue;
+  clear: both;
+  overflow: hidden;
+  padding: 7% 0% 0% 0%;
+}
+
+#numeroDesertadas{
+  font-size: 250%;
+}
+
+#estudentsNumbers {}
+}
+
+/*sección dropoutNumber*/
+#dropoutNumber {
 }
