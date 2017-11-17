@@ -21,13 +21,15 @@ nav {
 
 #divListNav,
 #listNav,
-#list {
+#listCities,
+#listLogIn {
     display: inline-block;
     list-style: none;
     color: #e6e7e9;
 }
-.logIn {
-    margin-left: 40px;
+
+#listCities {
+    margin-right: 25px;
 }
 
 #divListNav {
@@ -49,47 +51,69 @@ nav {
     margin-left: 23.5%;
 }
 
+#titleCities {
+  text-align: center;
+  padding: 2%;
+  font-size: 200%;
+}
+
+#imgchile,
+#imgperu,
+#imgmexico {
+  padding: 3% 0% 10% 0%;
+}
+
 #imgchile{
     width: 29%;
     /* height: 30%; */
-    padding-left: 2%;
+    margin-left: 2%;
 }
 #imgperu{
     width: 26%;
     /* height: 25%; */
-    padding-left: 3%;
+    margin-left: 3%;
 }
 #imgmexico{
     width: 34.5%;
     /* height: 30%; */
-    padding-left: 3%;
+    margin-left: 3%;
 }
+
+/*SECCIÓN CHILE*/
+#titleChile {
+  text-align: center;
+  padding: 2% 0% 0% 2;;
+  font-size: 200%;
+}
+
 #alumnas{
     width: 30%;
-    padding-top: 5%;
-    padding-left: 15%;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 20px;
 }
 #profesores{
     width: 30%;
-    padding-left: 10%;
-
-
-}
-#sedechile{
-  padding-top: 20%;
+    margin-left: 10%;
 }
 
+#chile{
+  border: 1px solid red;
+  padding: 5% 0% 7% 0%;
+}
+
+/*SECCIÓN ESTUDIANTES*/
 #studentsStgo {
     border: 1px solid blue;
 }
 
 #generacion,
 #iconoDown,
-#iconoFemale2,
-#listaNumeroAlumnas,
-#numeroEstudiantes,
-#listaAlumnasDesertadas,
-#numeroDesertadas,
+#femaleIcon2,
+#listStudentsNumbers,
+#studentsNumbers,
+#listDropoutStudents,
+#dropoutNumber,
 #listTurn,
 #turnOption,
 #optionAm,
