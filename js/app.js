@@ -37,6 +37,7 @@ enlaces[0]=new Array("#","#","#","#");
                submenu[i].style.font="normal 15px arial";
                submenu[i].style.padding="30px 60px";
                submenu[i].style.display="none"
+               
 
                }
           //eventos para ver - ocultar menu
@@ -55,28 +56,7 @@ enlaces[0]=new Array("#","#","#","#");
                    oculta=this.getElementsByTagName("div")[0];
                    oculta.style.display="none"
                    }
-                   google.charts.load('current', {'packages':['corechart']});
-                   google.charts.setOnLoadCallback(drawChart);
-             
-                   function drawChart() {
-             
-                     var data = google.visualization.arrayToDataTable([
-                       ['Task', 'Hours per Day'],
-                       ['Work',     0],
-                       ['Dropout Students',      25],
-                       ['Registered Students',  145],
-                       ['Watch TV', 0],
-                       ['Sleep',    0]
-                     ]);
-             
-                     var options = {
-                       title: 'Students'
-                     };
-             
-                     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-             
-                     chart.draw(data, options);
-                   }
+                   
 /*
  * Funcionalidad de tu producto
  */

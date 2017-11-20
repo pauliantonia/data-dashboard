@@ -14,6 +14,7 @@ nav {
     background-color: #faa819;
     color: white;
     top: 0;
+    z-index: 100;
 }
 
 #titleNav {
@@ -213,6 +214,7 @@ nav {
     left: 23%;
     bottom: 90px;
     width: 30%;
+    z-index: 99;
 }
 
 #titleTeachers {
@@ -239,4 +241,12 @@ nav {
 
 #divGraphicStudent {
     display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#piechart {
+    position: relative;
 }
