@@ -164,17 +164,11 @@ nav {
 #divNumbersStudents{
   /*border: 1px solid red;*/
   margin-top: 0%;
-  margin-left: 15%;
-  display: inline-block;
+  margin-left: 0%;
   width: 50%;
-  vertical-align: middle;
-}
-
-#graphicStudent {
-  width: 30%;
-  display: inline-block;
-  vertical-align: middle;
-  /*border: 1px solid purple;*/
+  position: relative;
+  left: 50%;
+  bottom: 400px;
 }
 
 #divTotalDropout {
@@ -247,6 +241,3 @@ a{
     text-decoration: none;
 }
 
-#piechart {
-    position: relative;
-}
