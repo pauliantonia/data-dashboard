@@ -14,7 +14,7 @@ enlaces[0]=new Array("#","#","#","#");
 
           var menu=new Array()
           var submenu=new Array()
-          
+
           window.onload = function() {
           //BARRA DE NAVEGACIÓN: Crear desplegables:
           for (i=0;i<titulos.length;i++) {
@@ -33,17 +33,17 @@ enlaces[0]=new Array("#","#","#","#");
                submenu[i].style.position="absolute";
                submenu[i].style.top="100%";
                submenu[i].style.left="0px";
-               submenu[i].style.backgroundColor="#2b778e";
+               submenu[i].style.backgroundColor="#faa819";
                submenu[i].style.font="normal 15px arial";
                submenu[i].style.padding="30px 60px";
                submenu[i].style.display="none"
-               
-               }	
+
+               }
           //eventos para ver - ocultar menu
           for (i=0;i<titulos.length;i++) {
               menu[i].onmouseover = ver;
               menu[i].onmouseout = ocultar;
-              } 
+              }
           }
           //función para ver los menús desplegables.
           function ver() {
@@ -54,6 +54,28 @@ enlaces[0]=new Array("#","#","#","#");
           function ocultar() {
                    oculta=this.getElementsByTagName("div")[0];
                    oculta.style.display="none"
+                   }
+                   google.charts.load('current', {'packages':['corechart']});
+                   google.charts.setOnLoadCallback(drawChart);
+             
+                   function drawChart() {
+             
+                     var data = google.visualization.arrayToDataTable([
+                       ['Task', 'Hours per Day'],
+                       ['Work',     0],
+                       ['Dropout Students',      25],
+                       ['Registered Students',  145],
+                       ['Watch TV', 0],
+                       ['Sleep',    0]
+                     ]);
+             
+                     var options = {
+                       title: 'Students'
+                     };
+             
+                     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+             
+                     chart.draw(data, options);
                    }
 /*
  * Funcionalidad de tu producto

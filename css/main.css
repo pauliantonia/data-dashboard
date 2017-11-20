@@ -5,14 +5,15 @@ body {
 
 /*INICIO Y BARRA DE NAVEGACIÓN*/
 header {
-    background-color: #2b778e; /*#018390;*/
+    background-color: white; /*#018390;*/
 }
 
 nav {
     position: fixed;
     width: 100%;
-    background-color: #183e4b;
-    color: #e6e7e9;
+    background-color: #faa819;
+    color: white;
+    top: 0;
 }
 
 #titleNav {
@@ -20,21 +21,32 @@ nav {
     margin-left: 5%;
 }
 
+#labNav {
+  color: white;
+}
+
+
 #divListNav,
 #listNav,
 #listCities,
-#listLogIn {
+#listLogIn,
+#listStudentsTeachers{
     display: inline-block;
     list-style: none;
-    color: #e6e7e9;
+    color: white;
+    font-weight: bold;
 }
 
 #listCities {
-    margin-right: 25px;
+    margin-right: 10px;
+}
+
+#listLogIn {
+  margin-left: 10px;
 }
 
 #divListNav {
-    margin-left: 65%;
+    margin-left: 50%;
 }
 
 #start {
@@ -44,7 +56,7 @@ nav {
 #titleStart,
 #paragraphStart {
     text-align: center;
-    color: #e6e7e9;
+    color: grey;
     font-size: 150%;
 }
 
@@ -55,8 +67,9 @@ nav {
 /*SECTION CITIES*/
 #titleCities {
   text-align: center;
-  padding: 2%;
+  padding: 7% 2% 2% 2%;
   font-size: 200%;
+  color: grey;
 }
 
 #imgchile,
@@ -69,34 +82,40 @@ nav {
     width: 29%;
     /* height: 30%; */
     margin-left: 2%;
+    border-radius: 20px;
 }
 #imgperu{
     width: 26%;
     /* height: 25%; */
     margin-left: 3%;
+    border-radius: 20px;
 }
 #imgmexico{
     width: 34.5%;
     /* height: 30%; */
     margin-left: 3%;
+    border-radius: 20px;
 }
 
 /*SECCIÓN CHILE*/
 #titleChile {
   text-align: center;
-  padding: 2% 0% 0% 2;;
+  padding: 0% 0% 0% 2;;
   font-size: 200%;
+  color: grey;
+  margin-top: 4%;
 }
 
 #alumnas{
-    width: 30%;
+    width: 40%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 8%;
     border-radius: 20px;
 }
 #profesores{
-    width: 30%;
-    margin-left: 10%;
+    width: 40%;
+    margin-left: 3%;
+    border-radius: 20px;
 }
 
 #chile{
@@ -123,6 +142,7 @@ nav {
 #titleStudents {
     text-align: center;
     font-size: 200%;
+    color: grey;
 }
 
 #generacion {
@@ -137,38 +157,34 @@ nav {
 /*sección studentsNumbers*/
 #numberStudentsTotal{
   width: 100%;
+  height: 30%;
 }
 
 #divNumbersStudents{
   /*border: 1px solid red;*/
-  width: 65%;
-  float: right;
-  overflow: hidden;
-  clear: both;
+  margin-top: 0%;
+  margin-left: 15%;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
 }
 
 #graphicStudent {
-  width: 45%;
-  padding: 2% 0% 4.5% 0%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
   /*border: 1px solid purple;*/
 }
 
 #divTotalDropout {
-  float: right;
-  width: 50%;
+  display: inline-block;
   color: grey;
   /*border: 1px solid blue;*/
-  clear: both;
-  overflow: hidden;
-  padding: 9% 0% 0% 0%;
 }
 
 #numero,
 #numeroDesertadas{
   font-size: 250%;
-}
-
-#estudentsNumbers {}
 }
 
 /*sección dropoutNumber*/
@@ -178,18 +194,17 @@ nav {
 #dropdownMenu { padding: 0.5em; }
 #dropdownMenu li { margin: 0px 5px;
             float: left;
-           list-style-type: none;   }
-#dropdownMenu li:hover { color: yellow; }
-#dropdownMenu li a:link, #dropdownMenu li a:visited { 
+           list-style-type: none; }
+#dropdownMenu li:hover { color: #f7ce3b; }
+#dropdownMenu li a:link, #dropdownMenu li a:visited {
            color:black; text-decoration: none; }
-#dropdownMenu li a:hover, #dropdownMenu li a:active { 
+#dropdownMenu li a:hover, #dropdownMenu li a:active {
            color:#f7ce3b ; text-decoration: none; font-size: 30px;}
 .delete { clear: both; }
 #subseccion0{
-    white-space: nowrap;
+    white-space: nowrap;   
 
-   
-}	
+}
 #dropdownMenu li a {
     text-align: center;
 }
@@ -197,4 +212,31 @@ nav {
     position: relative;
     left: 23%;
     bottom: 90px;
+    width: 30%;
+}
+
+#titleTeachers {
+    font-size: 200%;
+    text-align: center;
+    margin-top: 9%;
+    color: grey;
+}
+
+#studentsProfile{
+    margin-left: 10%;
+    text-align: center;
+    color: grey;
+    font-size: 140%; 
+    display: inline-block;
+}
+
+#selStudents {
+    width: 80%;
+    height: 40px;
+    font-size: 70%;
+    display: inline-block;
+}
+
+#divGraphicStudent {
+    display: inline;
 }
