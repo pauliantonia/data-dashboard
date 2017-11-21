@@ -62,4 +62,4 @@ enlaces[0]=new Array("#","#","#","#");
  */
 
 // Puedes hacer uso de la base de datos a través de la variable `data`
-console.log(data);
+//console.log(data);

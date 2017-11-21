@@ -241,3 +241,38 @@ a{
     text-decoration: none;
 }
 
+#donutchart {
+    position: relative;
+    bottom: 150px;
+    left: 4%;
+    border: 1px solid grey;
+    padding-top: 1%;
+}
+
+#chart_div{
+    border: 1px solid grey;
+    position: relative;
+    left: 54%;
+    bottom: 664px;
+}
+
+#chart_div2 {
+    border: 1px solid grey;
+    position: relative;
+    bottom: 600px;
+    left: 4%;
+}
+
+#chart_div3{
+    border: 1px solid grey;
+    position: relative;
+    bottom: 1102px;
+    left: 55%;
+}
+
+#donutchart2 {
+    border: 1px solid grey;
+    position: relative;
+    bottom: 1050px;
+    left: 15%;
+}
