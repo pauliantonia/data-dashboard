@@ -278,8 +278,11 @@ a{
 }
 }
 /*seccion enlace a perfil de profes*/
-#enlaceprofes{
-
+#enlaceProfes{
+    position: relative;
+    left: 28px;
+    bottom: 390px;
+    
 }
 /*seccion imagenes y letras de teacher profile*/
 #h2, #h3{
@@ -299,4 +302,10 @@ a{
 }
 #valentina #h3{
     bottom: 130px;
+}
+#iconouser {
+    font-size: 8em;
+    position: relative;
+    bottom: 450px;
+    left: 180px;
 }
