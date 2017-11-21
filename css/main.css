@@ -276,3 +276,27 @@ a{
     bottom: 1050px;
     left: 15%;
 }
+}
+/*seccion enlace a perfil de profes*/
+#enlaceprofes{
+
+}
+/*seccion imagenes y letras de teacher profile*/
+#h2, #h3{
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+    right: 300px;   
+}
+#profes, #valentina{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+#valentina #h2  {
+    bottom: 120px;
+   
+}
+#valentina #h3{
+    bottom: 130px;
+}

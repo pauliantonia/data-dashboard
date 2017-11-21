@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../assets/fonts/css/font-awesome.min.css">
     <title>Dashboard Laboratoria</title>
   </head>
   <body>
@@ -22,7 +23,18 @@
     </header>
     <section id="teachers">
       <h2 id="titleTeachers">Teachers & Jedis</h2>
+      <table class="columns">
+          <tr>
+          <td><div id="Sprint1_chart_div" style="width: 600px; height: 500px; margin-left: 50%;"></div></td>
+          <td><div id="Sprint2_chart_div" style="width: 600px; height: 500px;margin-left: 18%"></div></td>
+          </tr>
+        </table>
+        <i class="fa fa-5x fa-users"></i>
+        <button id="enlaceProfes"><a href="../html/profesores.html"> TEACHERS PROFILES </a></button>
+          
       
    </section>
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+   <script src="../js/graphicdos.js"></script>
   </body>
 </html>
